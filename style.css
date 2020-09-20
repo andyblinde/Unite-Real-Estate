@@ -1,0 +1,39 @@
+/*
+    Template: unite
+    Theme Name: Unite Child Theme
+    Theme URI: http://colorlib.com/wp/unite
+    Author: Colorlib
+    Author URI: http://colorlib.com/wp/
+    Description: Unite is a clean, modern and fully responsive WordPress wedding theme built using Bootstrap 3 which makes it optimized for tablets and mobile. It is a highly customizable eCommerce theme with unlimited color variations that can be tweaked via simple yet powerful Theme Options. Theme has a built-in Popular Posts Widget, Infinite Scroll (powered by Jatpack) and translation support. It's now available in German and French. Theme features fancy image slider, SEO friendly structure, logo support, social links and widgetized homepage.  This theme was built to be used for wedding related websites but can be tweaked to be used as any other image-centric blog such as travel. Unite theme now supports WooCommerce to create your own eStore.
+    Version: 1.1.1
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Tags: one-column, two-columns, right-sidebar, translation-ready, custom-header,  custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, theme-options, threaded-comments, portfolio, photography, e-commerce
+This theme, like WordPress, is licensed under the GPL.
+Unite is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+	Text Domain: unite-child-theme
+*/
+
+.property-image {
+    overflow: hidden;
+}
+.property-preview img {
+    transition: 0.8s;
+}
+.property-preview a:hover img {
+    transform: scale(1.1);
+}
+
+.hide {
+    transform:scale(0);
+    width:0;
+    height:0;
+    transition:all 0.4s ease-in-out;
+}
+
+.real-estate-meta-fields {
+    margin-bottom: 20px;
+}
+.real-estate-meta-fields p {
+    margin: 0 0 2px;
+}
